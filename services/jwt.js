@@ -1,7 +1,6 @@
-const jwt = require ('jsonwebtoken');
-const secret = '7784AABB'
 
+const jwt = require('jsonwebtoken');
 
-exports.creatToken = (user) => {
-    return jwt.sign({user}, secret, {expiresIn: '1hr'})
+exports.createToken = (user) => {
+    return jwt.sign({user}, proces.env.SECRET, {expiresIn: '1hr'})
 }

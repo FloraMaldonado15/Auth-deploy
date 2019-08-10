@@ -1,13 +1,13 @@
 {
   "name": "0_auth",
   "version": "1.0.0",
-  "description": "auth con xpress",
+  "description": "auth con express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
-  "author": "Flora",
+  "author": "arturo",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.6",
